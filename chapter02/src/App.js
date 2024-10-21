@@ -1,6 +1,9 @@
+//we import our react comfonent from react
 import React, { Component } from 'react';
+//we added our product route path
 import Products from './Products';
 
+// we have changed our react app to a state where we can see the user name and surname, product and our h1 tag.
 class App extends Component {
   formatName(user) {
     return user.firstName + " " + user.lastName;
@@ -16,11 +19,14 @@ class App extends Component {
       <div>
         {/* <h1>My First React App!</h1> */}
         <Products />
-
-        {/* <h1>Hello there, {this.formatName(user)}!</h1> */}
+{/* 
+        <h1>Hello there, {this.formatName(user)}!</h1> */}
       </div>
     );
   }
 }
 
 export default App;
+
+//https://www.youtube.com/playlist?list=PLlUNYiy7voY1QSV1cGGCUY2tiod5vJHD7-youtube
+//https://github.com/Sharorrosesiyanata/React- github

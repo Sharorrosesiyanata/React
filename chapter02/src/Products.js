@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+//here we have our class which is product and is extending to component
 class Products extends Component {
     render() {
         const products = [
