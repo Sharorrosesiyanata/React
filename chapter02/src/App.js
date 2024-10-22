@@ -28,5 +28,4 @@ class App extends Component {
 
 export default App;
 
-//https://www.youtube.com/playlist?list=PLlUNYiy7voY1QSV1cGGCUY2tiod5vJHD7-youtube
-//https://github.com/Sharorrosesiyanata/React- github
+
