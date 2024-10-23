@@ -10,6 +10,7 @@ class Rating extends Component {
     handleClick(ratingValue) {
         this.setState({ rating: ratingValue })
     }
+//We will be using the IoIosStarOutline and IoIosStar ionicons:
 
     render() {
         return (
